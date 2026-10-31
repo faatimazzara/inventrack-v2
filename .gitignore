@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.dev/
+.pytest_cache/
+data/*.json
+data/*.tmp
+outputs/*.csv
+.DS_Store
+
+/data-uji/
+/hasil-uji/
+/data-demo/
+/hasil-demo/

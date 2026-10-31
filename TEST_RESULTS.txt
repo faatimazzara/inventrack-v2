@@ -1,0 +1,49 @@
+test_admin_can_create_all_roles (test_auth.AuthTests.test_admin_can_create_all_roles) ... ok
+test_cannot_disable_last_admin (test_auth.AuthTests.test_cannot_disable_last_admin) ... ok
+test_change_role_revokes_old_privileges (test_auth.AuthTests.test_change_role_revokes_old_privileges) ... ok
+test_disabled_account_cannot_login (test_auth.AuthTests.test_disabled_account_cannot_login) ... ok
+test_password_hash_and_login (test_auth.AuthTests.test_password_hash_and_login) ... ok
+test_password_policy (test_auth.AuthTests.test_password_policy) ... ok
+test_password_reset_and_self_change (test_auth.AuthTests.test_password_reset_and_self_change) ... ok
+test_staff_cannot_manage_accounts (test_auth.AuthTests.test_staff_cannot_manage_accounts) ... ok
+test_unauthorized_bootstrap (test_auth.AuthTests.test_unauthorized_bootstrap) ... ok
+test_invalid_config (test_benchmark.BenchmarkTests.test_invalid_config) ... ok
+test_small_workload_across_three_structures (test_benchmark.BenchmarkTests.test_small_workload_across_three_structures) ... ok
+test_admin_can_add_product_then_logout (test_cli.CLITests.test_admin_can_add_product_then_logout) ... ok
+test_admin_stock_flow_and_persistence (test_cli.CLITests.test_admin_stock_flow_and_persistence) ... ok
+test_admin_user_add_and_subsequent_login (test_cli.CLITests.test_admin_user_add_and_subsequent_login) ... ok
+test_blank_menu_input_recovers (test_cli.CLITests.test_blank_menu_input_recovers) ... ok
+test_developer_analysis_flow (test_cli.CLITests.test_developer_analysis_flow) ... ok
+test_developer_real_benchmark_csv (test_cli.CLITests.test_developer_real_benchmark_csv) ... ok
+test_first_run_admin_creation (test_cli.CLITests.test_first_run_admin_creation) ... ok
+test_invalid_menu_and_back (test_cli.CLITests.test_invalid_menu_and_back) ... ok
+test_login_rejected (test_cli.CLITests.test_login_rejected) ... ok
+test_manager_report_flow (test_cli.CLITests.test_manager_report_flow) ... ok
+test_product_update_description_optional_and_delete (test_cli.CLITests.test_product_update_description_optional_and_delete) ... ok
+test_staff_cannot_see_adjustment_option (test_cli.CLITests.test_staff_cannot_see_adjustment_option) ... ok
+test_staff_has_no_benchmark_menu (test_cli.CLITests.test_staff_has_no_benchmark_menu) ... ok
+test_change_does_not_mutate_original (test_domain.ProductTests.test_change_does_not_mutate_original) ... ok
+test_out_and_safe_stock (test_domain.ProductTests.test_out_and_safe_stock) ... ok
+test_serialization (test_domain.ProductTests.test_serialization) ... ok
+test_valid_product_and_low_stock (test_domain.ProductTests.test_valid_product_and_low_stock) ... ok
+test_validation_rejects_invalid_data (test_domain.ProductTests.test_validation_rejects_invalid_data) ... ok
+test_add_search_update_delete (test_product_service.ProductServiceTests.test_add_search_update_delete) ... ok
+test_audit_products (test_product_service.ProductServiceTests.test_audit_products) ... ok
+test_disallow_update_stock_through_product_service (test_product_service.ProductServiceTests.test_disallow_update_stock_through_product_service) ... ok
+test_roles (test_product_service.ProductServiceTests.test_roles) ... ok
+test_search_filters (test_product_service.ProductServiceTests.test_search_filters) ... ok
+test_each_implementation (test_repositories.RepositoryContractTests.test_each_implementation) ... ok
+test_large_consistency_without_dict_index_on_linked (test_repositories.RepositoryContractTests.test_large_consistency_without_dict_index_on_linked) ... ok
+test_linked_list_head_tail_invariants (test_repositories.RepositoryContractTests.test_linked_list_head_tail_invariants) ... ok
+test_in_out_and_adjust (test_stock_service.StockServiceTests.test_in_out_and_adjust) ... ok
+test_invalid_stock_does_not_mutate (test_stock_service.StockServiceTests.test_invalid_stock_does_not_mutate) ... ok
+test_reports_and_audit (test_stock_service.StockServiceTests.test_reports_and_audit) ... ok
+test_role_enforcement (test_stock_service.StockServiceTests.test_role_enforcement) ... ok
+test_bad_schema (test_storage.PersistenceTests.test_bad_schema) ... ok
+test_read_corrupted_json_does_not_silently_overwrite (test_storage.PersistenceTests.test_read_corrupted_json_does_not_silently_overwrite) ... ok
+test_reload_all_data (test_storage.PersistenceTests.test_reload_all_data) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 4.187s
+
+OK
